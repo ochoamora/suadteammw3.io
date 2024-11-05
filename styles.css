@@ -1,21 +1,3 @@
-body 
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #034609; /* Color de fondo principal */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #034609;
-}  
-
  h1 {
     margin: 20px;
     color: #17ad26;
