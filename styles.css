@@ -1,24 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+body 
+ {
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
+    
+
 }
 
-header {
-    background-color: #e3a761 ;
-    color: white;
-    padding: 10px 0;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #034609; /* Color de fondo principal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #034609;
+}  
+
+ h1 {
+    margin: 20px;
+    color: #17ad26;
+    font-size: 2em;
 }
 
-main {
+.user-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
     padding: 20px;
 }
 
-button {
+.user-card {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #17ad26;
+    color: #ecf0f1;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.user-card:hover {
+    transform: scale(1.02);
+}
+
+.user-card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.user-card h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #ecf0f1;
+}
+
+.user-card p {
+    margin-bottom: 15px;
+    color: #f6f9fb;
+    font-size: 0.9em;
+}
+
+.user-card a {
+    display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #17ad26;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.user-card a:hover {
+    background-color: #034609;
 }
